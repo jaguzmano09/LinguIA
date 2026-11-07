@@ -1,0 +1,29 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencias y compilación
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.vercel/
+.netlify/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Archivos locales y datos privados
+*.log
+.DS_Store
+data/private/
+recordings/
+backups/
